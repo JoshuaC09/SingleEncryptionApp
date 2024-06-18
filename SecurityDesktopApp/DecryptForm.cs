@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Windows.Forms;
 
 namespace SecurityDesktopApp
@@ -11,8 +12,9 @@ namespace SecurityDesktopApp
         public string UserEncryptionKey { get; set; } // Add this property
 
         private const string DefaultEncryptionKey = "In the eye of the beholder doth lie beauty's true essence, for each gaze doth fashion its own fair visage";
-        private readonly byte[] salt = new byte[] { 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f };
 
+      //  private readonly byte[] salt = new byte[] { 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f };
+        private readonly byte[] salt = Encoding.UTF8.GetBytes("The only way to guarantee peace is by making the prospect of war seem hopeless");
         public DecryptForm(string userEncryptionKey)
         {
             InitializeComponent();

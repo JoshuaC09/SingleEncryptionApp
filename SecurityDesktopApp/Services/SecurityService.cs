@@ -33,18 +33,21 @@ namespace SecurityDesktopApp
             using (Aes aes = Aes.Create())
             {
                 aes.Key = _key;
-                aes.IV = _iv;
+                aes.GenerateIV(); // Generate a random IV
+                byte[] iv = aes.IV;
+
+                aes.Padding = PaddingMode.PKCS7;
 
                 using (MemoryStream ms = new MemoryStream())
                 {
+                    ms.Write(iv, 0, iv.Length); // Prepend IV to the ciphertext
                     using (CryptoStream cs = new CryptoStream(ms, aes.CreateEncryptor(), CryptoStreamMode.Write))
                     {
-                        using (StreamWriter sw = new StreamWriter((Stream)cs))
+                        using (StreamWriter sw = new StreamWriter(cs))
                         {
                             sw.Write(clearText);
                         }
                     }
-
                     return Convert.ToBase64String(ms.ToArray());
                 }
             }
@@ -52,42 +55,28 @@ namespace SecurityDesktopApp
 
         public string Decrypt(string cipherText)
         {
-            try
+            var fullCipher = Convert.FromBase64String(cipherText);
+            using (var aes = Aes.Create())
             {
-                byte[] cipherBytes = Convert.FromBase64String(cipherText);
+                aes.Key = _key;
 
-                using (Aes aes = Aes.Create())
+                byte[] iv = new byte[aes.BlockSize / 8];
+                byte[] cipher = new byte[fullCipher.Length - iv.Length];
+
+                Array.Copy(fullCipher, iv, iv.Length);
+                Array.Copy(fullCipher, iv.Length, cipher, 0, cipher.Length);
+
+                aes.IV = iv;
+                aes.Padding = PaddingMode.PKCS7;
+
+                using (var decryptor = aes.CreateDecryptor(aes.Key, aes.IV))
+                using (var ms = new MemoryStream(cipher))
+                using (var cs = new CryptoStream(ms, decryptor, CryptoStreamMode.Read))
+                using (var sr = new StreamReader(cs))
                 {
-                    aes.Key = _key;
-                    aes.IV = _iv;
-
-                    using (MemoryStream ms = new MemoryStream(cipherBytes))
-                    {
-                        using (CryptoStream cs = new CryptoStream(ms, aes.CreateDecryptor(), CryptoStreamMode.Read))
-                        {
-                            using (StreamReader sr = new StreamReader((Stream)cs))
-                            {
-                                return sr.ReadToEnd();
-                            }
-                        }
-                    }
+                    return sr.ReadToEnd();
                 }
             }
-            catch (CryptographicException ex)
-            {
-                // Log or handle the exception as needed
-                Console.WriteLine($"Decryption Error: {ex.Message}");
-
-                // Throw a more user-friendly exception
-                throw new Exception("An error occurred while decrypting the data. Please check the encryption key and the encrypted data.");
-            }
-            catch (FormatException ex)
-            {
-                // Handle the FormatException as needed
-                Console.WriteLine($"Format Error: {ex.Message}");
-                throw new Exception("The encrypted data is not in the correct format.");
-            }
         }
-     }
+    }
 }
-

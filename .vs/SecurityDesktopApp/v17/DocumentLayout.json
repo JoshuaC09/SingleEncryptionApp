@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\securitydesktopapp\\services\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|solutionrelative:securitydesktopapp\\services\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|d:\\canapi_joshua_intern_pupsmb\\singleencryptionapp\\singleencryptionapp\\securitydesktopapp\\decryptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|solutionrelative:securitydesktopapp\\decryptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|d:\\canapi_joshua_intern_pupsmb\\singleencryptionapp\\singleencryptionapp\\securitydesktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|solutionrelative:securitydesktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|d:\\canapi_joshua_intern_pupsmb\\singleencryptionapp\\singleencryptionapp\\securitydesktopapp\\decryptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|solutionrelative:securitydesktopapp\\decryptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|d:\\canapi_joshua_intern_pupsmb\\singleencryptionapp\\singleencryptionapp\\securitydesktopapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|solutionrelative:securitydesktopapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|d:\\canapi_joshua_intern_pupsmb\\singleencryptionapp\\singleencryptionapp\\securitydesktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|d:\\canapi_joshua_intern_pupsmb\\singleencryptionapp\\singleencryptionapp\\securitydesktopapp\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|solutionrelative:securitydesktopapp\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\securitydesktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|solutionrelative:securitydesktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|d:\\canapi_joshua_intern_pupsmb\\singleencryptionapp\\singleencryptionapp\\securitydesktopapp\\services\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|solutionrelative:securitydesktopapp\\services\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\securitydesktopapp\\decryptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C6C3918-5771-46F2-9100-5ACA4EC05E92}|SecurityDesktopApp\\SecurityDesktopApp.csproj|solutionrelative:securitydesktopapp\\decryptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +38,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "DecryptForm.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\SecurityDesktopApp\\DecryptForm.cs",
+              "RelativeDocumentMoniker": "SecurityDesktopApp\\DecryptForm.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\SecurityDesktopApp\\DecryptForm.cs",
+              "RelativeToolTip": "SecurityDesktopApp\\DecryptForm.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:03:50.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\SecurityDesktopApp\\Form1.resx",
+              "RelativeDocumentMoniker": "SecurityDesktopApp\\Form1.resx",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\SecurityDesktopApp\\Form1.resx",
+              "RelativeToolTip": "SecurityDesktopApp\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-18T05:52:54.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\SecurityDesktopApp\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "SecurityDesktopApp\\Form1.Designer.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\SecurityDesktopApp\\Form1.Designer.cs",
+              "RelativeToolTip": "SecurityDesktopApp\\Form1.Designer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:52:53.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\SecurityDesktopApp\\Form1.cs",
               "RelativeDocumentMoniker": "SecurityDesktopApp\\Form1.cs",
@@ -42,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DecryptForm.cs [Design]",
               "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\SecurityDesktopApp\\DecryptForm.cs",
               "RelativeDocumentMoniker": "SecurityDesktopApp\\DecryptForm.cs",
@@ -54,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\SecurityDesktopApp\\Form1.cs",
               "RelativeDocumentMoniker": "SecurityDesktopApp\\Form1.cs",
@@ -66,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "SecurityService.cs",
               "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\SingleEncryptionApp\\SingleEncryptionApp\\SecurityDesktopApp\\Services\\SecurityService.cs",
               "RelativeDocumentMoniker": "SecurityDesktopApp\\Services\\SecurityService.cs",
