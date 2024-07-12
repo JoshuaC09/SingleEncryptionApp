@@ -115,5 +115,6 @@ namespace SecurityDesktopApp
                 timerResetIcon.Start();
             }
         }
+
     }
 }
