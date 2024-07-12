@@ -115,10 +115,5 @@ namespace SecurityDesktopApp
                 timerResetIcon.Start();
             }
         }
-
-        private void txtUserName2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
