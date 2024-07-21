@@ -63,7 +63,7 @@
             this.label2.Location = new System.Drawing.Point(220, 21);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(262, 24);
+            this.label2.Size = new System.Drawing.Size(213, 19);
             this.label2.TabIndex = 26;
             this.label2.Text = "Decrypt Your Credentials Here";
             // 
@@ -74,7 +74,7 @@
             this.label1.Location = new System.Drawing.Point(29, 219);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(139, 24);
+            this.label1.Size = new System.Drawing.Size(110, 19);
             this.label1.TabIndex = 25;
             this.label1.Text = "Decrypted Text:";
             // 
@@ -125,7 +125,7 @@
             this.lbl_UserName.Location = new System.Drawing.Point(29, 57);
             this.lbl_UserName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_UserName.Name = "lbl_UserName";
-            this.lbl_UserName.Size = new System.Drawing.Size(138, 24);
+            this.lbl_UserName.Size = new System.Drawing.Size(108, 19);
             this.lbl_UserName.TabIndex = 19;
             this.lbl_UserName.Text = "Encrypted Text:";
             // 
@@ -155,7 +155,7 @@
             // DecryptForm
             // 
             this.AcceptButton = this.btnDecrypt;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(696, 541);
             this.Controls.Add(this.pb_CopyEnUser2);

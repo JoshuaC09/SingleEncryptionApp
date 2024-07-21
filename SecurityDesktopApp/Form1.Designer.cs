@@ -47,7 +47,7 @@
             this.txtUserName.BackColor = System.Drawing.Color.White;
             this.txtUserName.Font = new System.Drawing.Font("Trebuchet MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserName.Location = new System.Drawing.Point(33, 92);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtUserName.Multiline = true;
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(630, 100);
@@ -58,8 +58,9 @@
             this.lbl_UserName.AutoSize = true;
             this.lbl_UserName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_UserName.Location = new System.Drawing.Point(29, 57);
+            this.lbl_UserName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_UserName.Name = "lbl_UserName";
-            this.lbl_UserName.Size = new System.Drawing.Size(95, 24);
+            this.lbl_UserName.Size = new System.Drawing.Size(76, 19);
             this.lbl_UserName.TabIndex = 4;
             this.lbl_UserName.Text = "Plain Text:";
             // 
@@ -70,7 +71,7 @@
             this.btnEncrypt.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEncrypt.ForeColor = System.Drawing.Color.White;
             this.btnEncrypt.Location = new System.Drawing.Point(33, 402);
-            this.btnEncrypt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEncrypt.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnEncrypt.Name = "btnEncrypt";
             this.btnEncrypt.Size = new System.Drawing.Size(311, 60);
             this.btnEncrypt.TabIndex = 9;
@@ -85,7 +86,7 @@
             this.btnClearValues.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearValues.ForeColor = System.Drawing.Color.White;
             this.btnClearValues.Location = new System.Drawing.Point(352, 402);
-            this.btnClearValues.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnClearValues.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnClearValues.Name = "btnClearValues";
             this.btnClearValues.Size = new System.Drawing.Size(311, 60);
             this.btnClearValues.TabIndex = 11;
@@ -98,8 +99,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(29, 219);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 24);
+            this.label1.Size = new System.Drawing.Size(108, 19);
             this.label1.TabIndex = 13;
             this.label1.Text = "Encrypted Text:";
             // 
@@ -107,8 +109,8 @@
             // 
             this.txtEncryptedUser.BackColor = System.Drawing.Color.White;
             this.txtEncryptedUser.Font = new System.Drawing.Font("Trebuchet MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEncryptedUser.Location = new System.Drawing.Point(33, 263);
-            this.txtEncryptedUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtEncryptedUser.Location = new System.Drawing.Point(33, 272);
+            this.txtEncryptedUser.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtEncryptedUser.Multiline = true;
             this.txtEncryptedUser.Name = "txtEncryptedUser";
             this.txtEncryptedUser.Size = new System.Drawing.Size(630, 103);
@@ -121,7 +123,7 @@
             this.btnDecryptionForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDecryptionForm.ForeColor = System.Drawing.Color.White;
             this.btnDecryptionForm.Location = new System.Drawing.Point(483, 497);
-            this.btnDecryptionForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDecryptionForm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDecryptionForm.Name = "btnDecryptionForm";
             this.btnDecryptionForm.Size = new System.Drawing.Size(180, 39);
             this.btnDecryptionForm.TabIndex = 15;
@@ -133,10 +135,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.Control;
-            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
             this.label2.Location = new System.Drawing.Point(220, 21);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(260, 24);
+            this.label2.Size = new System.Drawing.Size(212, 19);
             this.label2.TabIndex = 14;
             this.label2.Text = "Encrypt Your Credentials Here";
             // 
@@ -145,7 +148,7 @@
             this.pb_CopyEnUser.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_CopyEnUser.Image = global::SecurityDesktopApp.Properties.Resources.CopyIcon2;
             this.pb_CopyEnUser.Location = new System.Drawing.Point(627, 263);
-            this.pb_CopyEnUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb_CopyEnUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pb_CopyEnUser.Name = "pb_CopyEnUser";
             this.pb_CopyEnUser.Size = new System.Drawing.Size(36, 30);
             this.pb_CopyEnUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -155,27 +158,28 @@
             // 
             // SecretKeyUserInput
             // 
-            this.SecretKeyUserInput.Location = new System.Drawing.Point(183, 497);
-            this.SecretKeyUserInput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SecretKeyUserInput.Location = new System.Drawing.Point(153, 502);
+            this.SecretKeyUserInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SecretKeyUserInput.Multiline = true;
             this.SecretKeyUserInput.Name = "SecretKeyUserInput";
-            this.SecretKeyUserInput.Size = new System.Drawing.Size(139, 33);
+            this.SecretKeyUserInput.Size = new System.Drawing.Size(105, 28);
             this.SecretKeyUserInput.TabIndex = 19;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(8, 506);
+            this.label3.Location = new System.Drawing.Point(22, 509);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(159, 24);
+            this.label3.Size = new System.Drawing.Size(127, 19);
             this.label3.TabIndex = 20;
             this.label3.Text = "Enter SECRET KEY:";
             // 
             // EncryptForm
             // 
             this.AcceptButton = this.btnEncrypt;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.ClientSize = new System.Drawing.Size(696, 541);
@@ -191,7 +195,7 @@
             this.Controls.Add(this.lbl_UserName);
             this.Controls.Add(this.txtUserName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "EncryptForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EncryptionForm";
